@@ -6,7 +6,6 @@ export default {
     extend: {
       colors: {
         accent: '#a4ff00',
-        primary: '#2563eb',
         darkBg: '#0d0d0d',
         darkCard: '#2a2a2a',
       },

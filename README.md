@@ -1,4 +1,4 @@
-# SIRUS Timesheet System – MVP V1.0.1
+# SIRUS Timesheet System – MVP V1.0
 
 Modern React + Tailwind implementation of the SIRUS Timesheet System. Includes landing page, dark/light themes, engineer + week selection, 15-minute interval tracking, CSV export, and email template generation.
 
@@ -18,8 +18,9 @@ Modern React + Tailwind implementation of the SIRUS Timesheet System. Includes l
    ```
 
 ## Features
-- Animated splash screen with Start CTA and theme toggle (session-only).
+- Animated landing page with Start Timesheet CTA and theme toggle.
+- LocalStorage persistence for theme, engineer, week, and entries with auto-save every 30s.
 - 2026 ISO week selector with restricted date inputs per week.
-- Timesheet entries with 15-minute intervals, auto hour/total calculations, overlap validation, and cascading dropdowns.
-- Weekly dashboard totals, CSV export with success modal + email actions, and reminder toast feedback.
-- Reset All with confirmation and micro-animations; no persistent storage (state clears on reload or reset).
+- Timesheet entries with 15-minute intervals, auto hour/total calculations, and overlap validation.
+- Cascading dropdowns for service categories/types and project scopes.
+- Weekly dashboard totals, CSV export, and email template helpers.
