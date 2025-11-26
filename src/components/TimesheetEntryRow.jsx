@@ -27,7 +27,7 @@ export default function TimesheetEntryRow({
   const total = hoursDecimal + Number(entry.travelTime || 0)
 
   const dailyWarning = hoursDecimal > 10
-  const maxWarning = hoursDecimal >= 24
+  const maxWarning = hoursDecimal > 24
 
   const dateOutOfRange = entry.date && weekNumber && !isDateInWeek(entry.date, weekNumber)
 
